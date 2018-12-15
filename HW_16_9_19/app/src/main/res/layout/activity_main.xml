@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/num1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/num2"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:id="@+id/btn1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call"
+            android:id="@+id/btn2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mailFrom"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mailTo"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="send"
+            android:id="@+id/btn3"/>
+    </LinearLayout>
+
+</LinearLayout>
